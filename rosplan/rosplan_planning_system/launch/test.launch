@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+		<!-- enter_elevator -->
+		<node name="rosplan_interface_enterelevator" pkg="rosplan_interface_enterelevator" type="rpenterelevator" respawn="false" output="screen">
+			<param name="pddl_action_name" value="enter_elevator" />
+		</node>
+</launch>
+
+
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>rosplan_interface_kinbago</name>
+  <version>0.0.0</version>
+  <description>ROSPlan interfaces for miscellaneous robot actions.</description>
+  <maintainer email="rares.buksz@kcl.ac.uk">Dorian</maintainer>
+  <license>BSD</license>
+  <url type="website">https://github.com/KCL-Planning/ROSPlan</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <run_depend>rosplan_interface_exitelevator</run_depend>
+  <run_depend>rosplan_interface_enterelevator</run_depend>
+  <run_depend>rosplan_interface_changemap</run_depend>
+  <run_depend>rosplan_interface_personinteraction</run_depend>
+
+  <export></export>
+</package>
